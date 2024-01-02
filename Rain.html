@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya&family=DM+Sans:opsz,wght@9..40,500&family=Signika+Negative:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Alegreya", serif;
+        margin: 0%;
+        background-color: #d0dce1;
+      }
+      .navbar {
+        background-color: #1a3289;
+        display: flex;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        align-items: end;
+        margin: 0 5%;
+        text-decoration: none;
+        position: relative;
+      }
+      .navbar ul li::after {
+        content: "";
+        height: 3px;
+        width: 0;
+        background: aliceblue;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        transition: 0.5s;
+      }
+      .navbar ul li:hover::after {
+        width: 100%;
+      }
+      .navbar ul li a {
+        list-style: none;
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .navbar ul {
+        display: flex;
+        text-decoration: none;
+        width: 94%;
+        justify-content: flex-end;
+      }
+
+      .logo {
+        margin: 0.2%;
+        width: 5%;
+      }
+      .header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+      .schoolname {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+      }
+      .schoolname h1 {
+        margin: 0;
+        margin-top: 1%;
+        color: aliceblue;
+      }
+      .schoolname p {
+        margin: 0;
+        padding: 0%;
+        color: aliceblue;
+        letter-spacing: 2px;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: start;
+      }
+      .sonnets {
+        margin-bottom: 0%;
+        text-align: center;
+        width: 50%;
+      }
+      .name{
+        margin-top: 7%;
+        text-align: center;
+      }
+      @media screen and (max-width: 800px) {
+          .container {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <img src="img/logo.svg" alt="Logo" class="logo" />
+        <div class="schoolname">
+          <h1>SHECOPI</h1>
+          <p>HIGH&nbsp;&nbsp;SCHOOL</p>
+        </div>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="extra-curricular.html">Extra-Curricular</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="name">
+        <h1>Rain Jesus Jason J. Sinense</h1> <hr>
+        <h3>
+            GROUP’S THEME: “Failing to move forward from something due to the remnants of the past”
+            </h3>
+    </div>
+    <div class="container">  
+      <div class="sonnets">
+        <h1>Petrarchan Sonnet</h1>
+        <h3>The Broken Promise Of Mine </h3>
+        <p>
+            A promise to maintain distance, <br>
+            Watching the sky so far. <br>
+            Observing the sparkle of my favorite star, <br>
+            Can't fight the urge to glance.<br>
+            We don't give goodbyes a chance,<br>
+            We think the "see you soon" is on par.<br>
+            It's hard to be alone in this car,<br>
+            But it's harder to be with you in this trance.<br>
+            Half a month with no call,<br>
+            I can't handle this kind of restraint.<br>
+            A bit more, and I think I'll fall.<br>
+            Last night, I had the urge to call,<br>
+            I know that I'm not a saint.<br>
+            But I think I'm causing my own downfall.<br>
+          </p>
+      </div>
+      <div class="sonnets">
+        <h1>Shakesperean Sonnet</h1>    
+        <h3>The never-ending fight</h3>
+        <p>
+          Warned me about the bitter end, <br>Told me to stop, but I thought you
+          were the one. <br> We thought it was right, but why do we pretend? <br> I
+          thought it was right, but why am I on the run? <br> But keep in mind, we
+          all heal from fall, <br> Even if we’re in a dark pit. <br> We all just need to
+          wait and stand tall, <br> Because a small glimmer and the pit is lit. <br> But
+          how can I leave this graveyard <br> When the souls of the dead hinder <br> our
+          past standing on guard, <br> Holding on to it with the tip of my finger. <br>
+          Tried everything to keep it at bay, <br> Ended miserably, but this will
+          soon fade, I just need to prolong my stay.<br>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

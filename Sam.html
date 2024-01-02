@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya&family=DM+Sans:opsz,wght@9..40,500&family=Signika+Negative:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Alegreya", serif;
+        margin: 0%;
+        background-color: #d0dce1;
+      }
+      .navbar {
+        background-color: #1a3289;
+        display: flex;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        align-items: end;
+        margin: 0 5%;
+        text-decoration: none;
+        position: relative;
+      }
+      .navbar ul li::after {
+        content: "";
+        height: 3px;
+        width: 0;
+        background: aliceblue;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        transition: 0.5s;
+      }
+      .navbar ul li:hover::after {
+        width: 100%;
+      }
+      .navbar ul li a {
+        list-style: none;
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .navbar ul {
+        display: flex;
+        text-decoration: none;
+        width: 94%;
+        justify-content: flex-end;
+      }
+
+      .logo {
+        margin: 0.2%;
+        width: 5%;
+      }
+      .header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+      .schoolname {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+      }
+      .schoolname h1 {
+        margin: 0;
+        margin-top: 1%;
+        color: aliceblue;
+      }
+      .schoolname p {
+        margin: 0;
+        padding: 0%;
+        color: aliceblue;
+        letter-spacing: 2px;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: start;
+      }
+      .sonnets {
+        margin-bottom: 0%;
+        text-align: center;
+        width: 50%;
+      }
+      .name {
+        margin-top: 7%;
+        text-align: center;
+      }
+      @media screen and (max-width: 800px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <img src="img/logo.svg" alt="Logo" class="logo" />
+        <div class="schoolname">
+          <h1>SHECOPI</h1>
+          <p>HIGH&nbsp;&nbsp;SCHOOL</p>
+        </div>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="extra-curricular.html">Extra-Curricular</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="name">
+      <h1>Samantha Jireh D. Narciso</h1>
+      <hr />
+      <h3>
+        GROUP’S THEME: “Failing to move forward from something due to the
+        remnants of the past”
+      </h3>
+    </div>
+    <div class="container">
+      <div class="sonnets">
+        <h1>Petrarchan Sonnet</h1>
+        <h3>A loss, A change</h3>
+        <p>
+          Abrupt peculiarity of the heaven’s seas. <br>
+          Ushered with an ardent desire it was you. <br>
+          One’s existence may not be destined to.<br>
+          Facile utterance, but still I cannot cease.<br>
+          A particular presence in your peace.<br>
+          Boundless amount of fortune is due <br>
+          To assuage such deprived adieu.<br>
+          Cushioning my descent from your bliss.<br>
+          This archive of memories, I must avoid.<br>
+          I remain to reminisce our bygone story<br>
+          That you certainly would have destroyed.<br>
+          To each other we turned singular, ordinary.<br>
+          A spell, a glimpse, makes us paranoid.<br>
+           Oh dear, when have you become dreary?<br>
+        </p>
+        <audio controls>
+            <source src="vid-audio/petrarchan.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="sonnets">
+        <h1>Shakesperean Sonnet</h1>
+        <h3>To my beloved Paramour. </h3>
+        <p>
+          Oh, how bewitching you are.<br>
+          Such beam is lethal to I.<br>
+          A kiss that had left a memorable scar,<br>
+          Under such heavenly bodies in the sky. <br>
+          And you are much beauteous.<br>
+          Oh, your weeping tortures me.<br>
+          Our existence are especially harmonious,<br>
+          So hold me and never abandon me.<br>
+          For I am vastly filled with worry<br>
+          With such memories we joyfully did share.<br>
+          Such reminder we could’ve started to bury.<br>
+          I never desire for this to fade into thin air.<br>
+          Oh, how bewitching you are my beloved Paramour.<br>
+          Hoping to be in your embrace, where I will only feel secure.<br>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
